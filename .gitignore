@@ -1,0 +1,62 @@
+# Unreal Engine standard ignores
+
+# Binaries
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Intermediate/
+.vscode/
+.vs/
+.idea/
+
+# Cache
+*.sln
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.log
+*.tlog
+
+# Mac
+*.DS_Store
+
+# Generated Plugins
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Asset Cache
+DerivedDataCache/
+
+# Ignore build artifacts
+*.pdb
+*.obj
+*.exe
+*.dll
+*.app
+*.ipa
+
+# Logs
+Saved/Logs/
+
+# Autosaves
+Saved/Autosaves/
+
+# Configs that should NOT be tracked
+Config/DefaultEditor.ini
+Config/DefaultEditorSettings.ini
+Config/Windows/EditorPerProjectUserSettings.ini
+Config/Windows/EditorSettings.ini
+
+# Ignore all files in Saved except Maps and Gameplay Debug Data
+Saved/*
+!Saved/Maps/
+!Saved/GameplayDebug/
+
+# Ignore cooked content
+Content/_____temp/
+Content/Developers/
+
